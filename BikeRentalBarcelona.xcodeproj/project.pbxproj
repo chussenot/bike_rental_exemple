@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E83C17139E4CE7003B43D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C16139E4CE7003B43D9 /* UIKit.framework */; };
+		B2E83C19139E4CE7003B43D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C18139E4CE7003B43D9 /* Foundation.framework */; };
+		B2E83C1B139E4CE7003B43D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C1A139E4CE7003B43D9 /* CoreGraphics.framework */; };
+		B2E83C21139E4CE7003B43D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C1F139E4CE7003B43D9 /* InfoPlist.strings */; };
+		B2E83C23139E4CE7003B43D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E83C22139E4CE7003B43D9 /* main.m */; };
+		B2E83C27139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E83C26139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.m */; };
+		B2E83C2A139E4CE7003B43D9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C28139E4CE7003B43D9 /* MainStoryboard_iPhone.storyboard */; };
+		B2E83C2D139E4CE7003B43D9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C2B139E4CE7003B43D9 /* MainStoryboard_iPad.storyboard */; };
+		B2E83C2F139E4CE7003B43D9 /* FirstViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C2E139E4CE7003B43D9 /* FirstViewController.h */; };
+		B2E83C31139E4CE7003B43D9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E83C30139E4CE7003B43D9 /* FirstViewController.m */; };
+		B2E83C33139E4CE7003B43D9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C32139E4CE7003B43D9 /* first.png */; };
+		B2E83C35139E4CE7003B43D9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C34139E4CE7003B43D9 /* first@2x.png */; };
+		B2E83C37139E4CE7003B43D9 /* SecondViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C36139E4CE7003B43D9 /* SecondViewController.h */; };
+		B2E83C39139E4CE7003B43D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E83C38139E4CE7003B43D9 /* SecondViewController.m */; };
+		B2E83C3B139E4CE7003B43D9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C3A139E4CE7003B43D9 /* second.png */; };
+		B2E83C3D139E4CE7003B43D9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C3C139E4CE7003B43D9 /* second@2x.png */; };
+		B2E83C45139E4CE7003B43D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C44139E4CE7003B43D9 /* SenTestingKit.framework */; };
+		B2E83C46139E4CE7003B43D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C16139E4CE7003B43D9 /* UIKit.framework */; };
+		B2E83C47139E4CE7003B43D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C18139E4CE7003B43D9 /* Foundation.framework */; };
+		B2E83C48139E4CE7003B43D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E83C1A139E4CE7003B43D9 /* CoreGraphics.framework */; };
+		B2E83C50139E4CE7003B43D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C4E139E4CE7003B43D9 /* InfoPlist.strings */; };
+		B2E83C52139E4CE7003B43D9 /* BikeRentalBarcelonaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B2E83C51139E4CE7003B43D9 /* BikeRentalBarcelonaTests.h */; };
+		B2E83C54139E4CE7003B43D9 /* BikeRentalBarcelonaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E83C53139E4CE7003B43D9 /* BikeRentalBarcelonaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2E83C49139E4CE7003B43D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2E83C09139E4CE7003B43D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E83C11139E4CE7003B43D9;
+			remoteInfo = BikeRentalBarcelona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2E83C12139E4CE7003B43D9 /* BikeRentalBarcelona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRentalBarcelona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E83C16139E4CE7003B43D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2E83C18139E4CE7003B43D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2E83C1A139E4CE7003B43D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2E83C1E139E4CE7003B43D9 /* BikeRentalBarcelona-Info.plist */ = {isa = PBXFileReference; path = "BikeRentalBarcelona-Info.plist"; sourceTree = "<group>"; };
+		B2E83C20139E4CE7003B43D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2E83C22139E4CE7003B43D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2E83C24139E4CE7003B43D9 /* BikeRentalBarcelona-Prefix.pch */ = {isa = PBXFileReference; path = "BikeRentalBarcelona-Prefix.pch"; sourceTree = "<group>"; };
+		B2E83C25139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.h */ = {isa = PBXFileReference; path = BikeRentalBarcelonaAppDelegate.h; sourceTree = "<group>"; };
+		B2E83C26139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeRentalBarcelonaAppDelegate.m; sourceTree = "<group>"; };
+		B2E83C29139E4CE7003B43D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2E83C2C139E4CE7003B43D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2E83C2E139E4CE7003B43D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2E83C30139E4CE7003B43D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B2E83C32139E4CE7003B43D9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B2E83C34139E4CE7003B43D9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B2E83C36139E4CE7003B43D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2E83C38139E4CE7003B43D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2E83C3A139E4CE7003B43D9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B2E83C3C139E4CE7003B43D9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B2E83C43139E4CE7003B43D9 /* BikeRentalBarcelonaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeRentalBarcelonaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E83C44139E4CE7003B43D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2E83C4D139E4CE7003B43D9 /* BikeRentalBarcelonaTests-Info.plist */ = {isa = PBXFileReference; path = "BikeRentalBarcelonaTests-Info.plist"; sourceTree = "<group>"; };
+		B2E83C4F139E4CE7003B43D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2E83C51139E4CE7003B43D9 /* BikeRentalBarcelonaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeRentalBarcelonaTests.h; sourceTree = "<group>"; };
+		B2E83C53139E4CE7003B43D9 /* BikeRentalBarcelonaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeRentalBarcelonaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E83C0F139E4CE7003B43D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C17139E4CE7003B43D9 /* UIKit.framework in Frameworks */,
+				B2E83C19139E4CE7003B43D9 /* Foundation.framework in Frameworks */,
+				B2E83C1B139E4CE7003B43D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E83C3F139E4CE7003B43D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C45139E4CE7003B43D9 /* SenTestingKit.framework in Frameworks */,
+				B2E83C46139E4CE7003B43D9 /* UIKit.framework in Frameworks */,
+				B2E83C47139E4CE7003B43D9 /* Foundation.framework in Frameworks */,
+				B2E83C48139E4CE7003B43D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E83C07139E4CE7003B43D9 = {
+			isa = PBXGroup;
+			children = (
+				B2E83C1C139E4CE7003B43D9 /* BikeRentalBarcelona */,
+				B2E83C4B139E4CE7003B43D9 /* BikeRentalBarcelonaTests */,
+				B2E83C15139E4CE7003B43D9 /* Frameworks */,
+				B2E83C13139E4CE7003B43D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E83C13139E4CE7003B43D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C12139E4CE7003B43D9 /* BikeRentalBarcelona.app */,
+				B2E83C43139E4CE7003B43D9 /* BikeRentalBarcelonaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E83C15139E4CE7003B43D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C16139E4CE7003B43D9 /* UIKit.framework */,
+				B2E83C18139E4CE7003B43D9 /* Foundation.framework */,
+				B2E83C1A139E4CE7003B43D9 /* CoreGraphics.framework */,
+				B2E83C44139E4CE7003B43D9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E83C1C139E4CE7003B43D9 /* BikeRentalBarcelona */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C25139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.h */,
+				B2E83C26139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.m */,
+				B2E83C28139E4CE7003B43D9 /* MainStoryboard_iPhone.storyboard */,
+				B2E83C2B139E4CE7003B43D9 /* MainStoryboard_iPad.storyboard */,
+				B2E83C2E139E4CE7003B43D9 /* FirstViewController.h */,
+				B2E83C30139E4CE7003B43D9 /* FirstViewController.m */,
+				B2E83C32139E4CE7003B43D9 /* first.png */,
+				B2E83C34139E4CE7003B43D9 /* first@2x.png */,
+				B2E83C36139E4CE7003B43D9 /* SecondViewController.h */,
+				B2E83C38139E4CE7003B43D9 /* SecondViewController.m */,
+				B2E83C3A139E4CE7003B43D9 /* second.png */,
+				B2E83C3C139E4CE7003B43D9 /* second@2x.png */,
+				B2E83C1D139E4CE7003B43D9 /* Supporting Files */,
+			);
+			path = BikeRentalBarcelona;
+			sourceTree = "<group>";
+		};
+		B2E83C1D139E4CE7003B43D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C1E139E4CE7003B43D9 /* BikeRentalBarcelona-Info.plist */,
+				B2E83C1F139E4CE7003B43D9 /* InfoPlist.strings */,
+				B2E83C22139E4CE7003B43D9 /* main.m */,
+				B2E83C24139E4CE7003B43D9 /* BikeRentalBarcelona-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2E83C4B139E4CE7003B43D9 /* BikeRentalBarcelonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C51139E4CE7003B43D9 /* BikeRentalBarcelonaTests.h */,
+				B2E83C53139E4CE7003B43D9 /* BikeRentalBarcelonaTests.m */,
+				B2E83C4C139E4CE7003B43D9 /* Supporting Files */,
+			);
+			path = BikeRentalBarcelonaTests;
+			sourceTree = "<group>";
+		};
+		B2E83C4C139E4CE7003B43D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2E83C4D139E4CE7003B43D9 /* BikeRentalBarcelonaTests-Info.plist */,
+				B2E83C4E139E4CE7003B43D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E83C11139E4CE7003B43D9 /* BikeRentalBarcelona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E83C57139E4CE7003B43D9 /* Build configuration list for PBXNativeTarget "BikeRentalBarcelona" */;
+			buildPhases = (
+				B2E83C0E139E4CE7003B43D9 /* Sources */,
+				B2E83C0F139E4CE7003B43D9 /* Frameworks */,
+				B2E83C10139E4CE7003B43D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeRentalBarcelona;
+			productName = BikeRentalBarcelona;
+			productReference = B2E83C12139E4CE7003B43D9 /* BikeRentalBarcelona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2E83C42139E4CE7003B43D9 /* BikeRentalBarcelonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E83C5A139E4CE7003B43D9 /* Build configuration list for PBXNativeTarget "BikeRentalBarcelonaTests" */;
+			buildPhases = (
+				B2E83C3E139E4CE7003B43D9 /* Sources */,
+				B2E83C3F139E4CE7003B43D9 /* Frameworks */,
+				B2E83C40139E4CE7003B43D9 /* Resources */,
+				B2E83C41139E4CE7003B43D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2E83C4A139E4CE7003B43D9 /* PBXTargetDependency */,
+			);
+			name = BikeRentalBarcelonaTests;
+			productName = BikeRentalBarcelonaTests;
+			productReference = B2E83C43139E4CE7003B43D9 /* BikeRentalBarcelonaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E83C09139E4CE7003B43D9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B2E83C0C139E4CE7003B43D9 /* Build configuration list for PBXProject "BikeRentalBarcelona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2E83C07139E4CE7003B43D9;
+			productRefGroup = B2E83C13139E4CE7003B43D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E83C11139E4CE7003B43D9 /* BikeRentalBarcelona */,
+				B2E83C42139E4CE7003B43D9 /* BikeRentalBarcelonaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E83C10139E4CE7003B43D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C21139E4CE7003B43D9 /* InfoPlist.strings in Resources */,
+				B2E83C2A139E4CE7003B43D9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2E83C2D139E4CE7003B43D9 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2E83C2F139E4CE7003B43D9 /* FirstViewController.h in Resources */,
+				B2E83C33139E4CE7003B43D9 /* first.png in Resources */,
+				B2E83C35139E4CE7003B43D9 /* first@2x.png in Resources */,
+				B2E83C37139E4CE7003B43D9 /* SecondViewController.h in Resources */,
+				B2E83C3B139E4CE7003B43D9 /* second.png in Resources */,
+				B2E83C3D139E4CE7003B43D9 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E83C40139E4CE7003B43D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C50139E4CE7003B43D9 /* InfoPlist.strings in Resources */,
+				B2E83C52139E4CE7003B43D9 /* BikeRentalBarcelonaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2E83C41139E4CE7003B43D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E83C0E139E4CE7003B43D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C23139E4CE7003B43D9 /* main.m in Sources */,
+				B2E83C27139E4CE7003B43D9 /* BikeRentalBarcelonaAppDelegate.m in Sources */,
+				B2E83C31139E4CE7003B43D9 /* FirstViewController.m in Sources */,
+				B2E83C39139E4CE7003B43D9 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E83C3E139E4CE7003B43D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E83C54139E4CE7003B43D9 /* BikeRentalBarcelonaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2E83C4A139E4CE7003B43D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2E83C11139E4CE7003B43D9 /* BikeRentalBarcelona */;
+			targetProxy = B2E83C49139E4CE7003B43D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2E83C1F139E4CE7003B43D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E83C20139E4CE7003B43D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2E83C28139E4CE7003B43D9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E83C29139E4CE7003B43D9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2E83C2B139E4CE7003B43D9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E83C2C139E4CE7003B43D9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2E83C4E139E4CE7003B43D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E83C4F139E4CE7003B43D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2E83C55139E4CE7003B43D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2E83C56139E4CE7003B43D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2E83C58139E4CE7003B43D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeRentalBarcelona/BikeRentalBarcelona-Prefix.pch";
+				INFOPLIST_FILE = "BikeRentalBarcelona/BikeRentalBarcelona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2E83C59139E4CE7003B43D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeRentalBarcelona/BikeRentalBarcelona-Prefix.pch";
+				INFOPLIST_FILE = "BikeRentalBarcelona/BikeRentalBarcelona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2E83C5B139E4CE7003B43D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BikeRentalBarcelona.app/BikeRentalBarcelona";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeRentalBarcelona/BikeRentalBarcelona-Prefix.pch";
+				INFOPLIST_FILE = "BikeRentalBarcelonaTests/BikeRentalBarcelonaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2E83C5C139E4CE7003B43D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BikeRentalBarcelona.app/BikeRentalBarcelona";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeRentalBarcelona/BikeRentalBarcelona-Prefix.pch";
+				INFOPLIST_FILE = "BikeRentalBarcelonaTests/BikeRentalBarcelonaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E83C0C139E4CE7003B43D9 /* Build configuration list for PBXProject "BikeRentalBarcelona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E83C55139E4CE7003B43D9 /* Debug */,
+				B2E83C56139E4CE7003B43D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E83C57139E4CE7003B43D9 /* Build configuration list for PBXNativeTarget "BikeRentalBarcelona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E83C58139E4CE7003B43D9 /* Debug */,
+				B2E83C59139E4CE7003B43D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2E83C5A139E4CE7003B43D9 /* Build configuration list for PBXNativeTarget "BikeRentalBarcelonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E83C5B139E4CE7003B43D9 /* Debug */,
+				B2E83C5C139E4CE7003B43D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E83C09139E4CE7003B43D9 /* Project object */;
+}
